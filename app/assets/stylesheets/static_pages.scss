@@ -20,14 +20,14 @@ html, body {
 
 
 body {
-    background: url(background.jpg) center ;
+    background: image-url("background.jpg") center ;
     background-size: cover;
     color: white;
 }
 
 .navbar {
     border: 0px;
-    background: url(teste.png);
+    background: image-url("teste.png");
     opacity: 1;
 }
 
