@@ -26,9 +26,10 @@ body {
 }
 
 h1 {
-    font-size: 30px;
-    color: red;
-    text-align: center;
+    color: #00aeef;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 100;
 }
 
 html, body {
@@ -69,6 +70,22 @@ html, body {
     font-weight: 500;
     
     border-radius: 0px;
+}
+
+#jumbo2 {
+    
+    background: url(synth1.jpg) center center no-repeat;
+    background-size: cover;
+    height: 257px;
+}
+
+#jumbo2 > h1 {
+    font-size: 37px;
+    font-weight: 100;
+}
+
+.col-md-8 {
+    font-family: 'Raleway', sans-serif !important;
 }
 
 body {
