@@ -37,7 +37,7 @@ html, body {
 }
 
 .jumbotron {
-    background: url(synth.png) center center no-repeat;
+    background: image_url('synth.png') center center no-repeat;
     background-size: cover;
     height: 596px;
 }
@@ -74,7 +74,7 @@ html, body {
 
 #jumbo2 {
     
-    background: url(synth1.jpg) center center no-repeat;
+    background: image_url('synth1.jpg') center center no-repeat;
     background-size: cover;
     height: 257px;
 }
@@ -123,8 +123,4 @@ body {
  
 .footer, .page-wrap:after {
     height: 55px; 
-}
-.footer {
-    background: url(teste.png);
-    opacity: 1;
 }
