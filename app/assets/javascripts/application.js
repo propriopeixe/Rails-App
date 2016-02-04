@@ -14,3 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+      $( ".alert" ).slideDown( 300 ).delay( 800 ).fadeIn( 400 );

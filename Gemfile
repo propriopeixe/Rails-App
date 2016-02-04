@@ -27,6 +27,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #devise for authentication
 gem 'devise'
 
+#cancan for authorization
+gem 'cancancan'
+
 
 group :production do
   gem 'pg'
