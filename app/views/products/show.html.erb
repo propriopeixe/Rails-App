@@ -1,9 +1,18 @@
 <div class="container">
   <p id="notice"><%= notice %></p>
   <br>
+  
+  <div class="col-md-12 col-xs-12 col-sm-12">
+    <%= link_to 'Edit', edit_product_path(@product), class: "btn btn-default" %>
+    <%= link_to 'Back', products_path, class: "btn btn-default" %>
+  </div>
+  
+  <br><br><br>
+  
   <div class="col-md-4 col-sm-6 col-xs-12">
   <%= image_tag(@product.image_url, class: "img-responsive thumbnail") %>
   </div>
+  
   
   <div class="col-md-8 col-sm-6 col-xs-12">
     <p>
@@ -35,14 +44,11 @@
   
   <br><br><br><br><br>
     
-  <div class="col-md-12 col-xs-12 col-sm-12">
-    <%= link_to 'Edit', edit_product_path(@product), class: "btn btn-default" %>
-    <%= link_to 'Back', products_path, class: "btn btn-default" %>
-  </div>
+
   
   <br>
 
-  <div class="col-md-6 col-md-offset-4">
+  <div class="col-md-6 col-xs-8 col-sm-6 col-md-offset-4">
     <%= render partial: 'new_comment' %>
     <%= render partial: 'comments' %>
   </div>

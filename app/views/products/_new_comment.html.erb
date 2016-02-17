@@ -2,17 +2,17 @@
   <h4>Add a review:</h4>
   <%= form_for([@product, @product.comments.build]) do |f| %>
     <p>
-      <%= f.label :body, "Comments" %><br>
-      <%= f.text_area :body %>
+      <h6>Comments</h6>
+      <%= f.text_area :body, class: "form-control" %>
     </p>
     <p>
-      <%= f.label :rating %>
+      <h6>Rating</h6>
       <div class="rating"></div>
       
       <br>
     </p>  
     <p>
-      <%= f.submit 'Submit' %>
+      <%= f.submit 'Submit', class: "btn btn-default" %>
     </p>
   <% end %>
 <% end %>
