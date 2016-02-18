@@ -30,6 +30,9 @@ gem 'devise'
 #cancan for authorization
 gem 'cancancan'
 
+#pagination
+gem 'will_paginate', '~> 3.0.6'
+
 
 group :production do
   gem 'pg'
