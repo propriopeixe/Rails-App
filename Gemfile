@@ -35,6 +35,8 @@ gem 'will_paginate', '~> 3.0.6'
 
 
 
+
+
 group :production do
   gem 'pg'
 end
@@ -60,6 +62,15 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   #factory
   gem "factory_girl_rails", "~> 4.0"
+  
+  #guard
+  gem 'guard'
+  
+  gem 'guard-rspec', require: false
+  
+  gem 'spork-rails'
+  
+  gem 'guard-spork'
 
 end
 
@@ -69,5 +80,7 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  
+  
 end
 
