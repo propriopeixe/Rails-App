@@ -72,6 +72,8 @@ group :development, :test do
   
   
   gem 'guard-spork'
+  
+  gem 'stripe'
 
 end
 

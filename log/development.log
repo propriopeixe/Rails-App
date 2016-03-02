@@ -45528,3 +45528,632 @@ Processing by StaticPagesController#about as HTML
   Rendered static_pages/about.html.erb within layouts/application (0.1ms)
   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
 Completed 200 OK in 211ms (Views: 208.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 179.183.34.74 at 2016-03-02 17:52:16 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 2141ms (Views: 2120.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:52:19 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ffcb2da9e539f67837a12bbff3a73e79a1c77483ffb8d4d94fa606f809537f2e.css?body=1" for 179.183.34.74 at 2016-03-02 17:52:19 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-ffafc937ef073db406434d2c9a434a85db6802d1354266a4a4722a05280085d5.css?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fade.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.raty.self-eb7045c9858acfa4797981589f870a37b0dc801327e96148473cad672c94b9b8.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/site.self-e8edfebf0c6d3e9767147fc771c65fb1ffa8c694250fedcf794b5b334362d3e0.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 179.183.34.74 at 2016-03-02 17:52:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/synth1-92ee756e9a21246b6b8b86d86be89155210b8f93c889a02fed877e0896ee0b3d.jpg" for 179.183.34.74 at 2016-03-02 17:52:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/products" for 179.183.34.74 at 2016-03-02 17:52:22 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 179.183.34.74 at 2016-03-02 17:52:23 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (167.9ms)
+Completed 200 OK in 484ms (Views: 439.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users/sign_in" for 179.183.34.74 at 2016-03-02 17:52:27 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7vo0IXqJvw3TB0mME3q/Rxu4irmy235Vc3l+IUFzhw0EYLogMGx9ge5pfCRD0kh9YRtNV20WZKnd7vAnZrCCkw==", "user"=>{"email"=>"silvade14@live.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (1.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "silvade14@live.com"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2016-02-23 13:26:22.277271"], ["current_sign_in_at", "2016-03-02 17:52:27.484501"], ["last_sign_in_ip", "177.157.209.117"], ["current_sign_in_ip", "179.183.34.74"], ["sign_in_count", 7], ["updated_at", "2016-03-02 17:52:27.489176"], ["id", 3]]
+  [1m[36m (12.5ms)[0m  [1mcommit transaction[0m
+Redirected to https://rails-propriopeixe.c9users.io/products
+Completed 302 Found in 406ms (ActiveRecord: 15.8ms)
+
+
+Started GET "/products" for 179.183.34.74 at 2016-03-02 17:52:27 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (83.8ms)
+  Rendered products/index.html.erb within layouts/application (108.1ms)
+Completed 200 OK in 403ms (Views: 376.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/roy-f9c785b21c8f05a36dbc7759f0c4b9ca004eb43247f37645e361ee68c5219721.jpg" for 179.183.34.74 at 2016-03-02 17:52:28 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pris-e69b6e46bce4008336c5427d885d8b78b8789bafa0b41483fc2d04ecdd1a159f.jpg" for 179.183.34.74 at 2016-03-02 17:52:28 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rachel-c4e193af97ed626de7cf73c3020b4076d3e51bda592ca13c1e35641551950552.jpg" for 179.183.34.74 at 2016-03-02 17:52:28 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/products/3" for 179.183.34.74 at 2016-03-02 17:52:30 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.6ms)[0m  SELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?  [["product_id", 3]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.7ms)
+  Rendered products/_new_comment.html.erb (62.9ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered products/_comments.html.erb (9.6ms)
+  Rendered products/show.html.erb within layouts/application (106.0ms)
+Completed 200 OK in 470ms (Views: 324.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/star-off.png" for 179.183.34.74 at 2016-03-02 17:52:30 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-on.png" for 179.183.34.74 at 2016-03-02 17:52:31 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-half.png" for 179.183.34.74 at 2016-03-02 17:52:31 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/products/roy.jpeg" for 179.183.34.74 at 2016-03-02 17:52:33 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as JPEG
+  Parameters: {"id"=>"roy"}
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=roy):
+  app/controllers/products_controller.rb:77:in `set_product'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (139.0ms)
+
+
+Started GET "/products/roy.jpeg" for 179.183.34.74 at 2016-03-02 17:52:35 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as JPEG
+  Parameters: {"id"=>"roy"}
+  [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 4ms (ActiveRecord: 1.0ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=roy):
+  app/controllers/products_controller.rb:77:in `set_product'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (94.8ms)
+
+
+Started GET "/products/3" for 179.183.34.74 at 2016-03-02 17:53:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 3]]
+  Rendered shared/_stripe_checkout_button.html.erb (5.5ms)
+  Rendered products/_new_comment.html.erb (3.1ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments" LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered products/_comments.html.erb (7.4ms)
+  Rendered products/show.html.erb within layouts/application (80.7ms)
+Completed 200 OK in 263ms (Views: 257.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-ffafc937ef073db406434d2c9a434a85db6802d1354266a4a4722a05280085d5.css?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ffcb2da9e539f67837a12bbff3a73e79a1c77483ffb8d4d94fa606f809537f2e.css?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fade.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.raty.self-eb7045c9858acfa4797981589f870a37b0dc801327e96148473cad672c94b9b8.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:21 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/site.self-e8edfebf0c6d3e9767147fc771c65fb1ffa8c694250fedcf794b5b334362d3e0.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:22 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:22 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:22 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 179.183.34.74 at 2016-03-02 17:53:22 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/roy-f9c785b21c8f05a36dbc7759f0c4b9ca004eb43247f37645e361ee68c5219721.jpg" for 179.183.34.74 at 2016-03-02 17:53:22 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-off.png" for 179.183.34.74 at 2016-03-02 17:53:22 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-on.png" for 179.183.34.74 at 2016-03-02 17:53:22 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-half.png" for 179.183.34.74 at 2016-03-02 17:53:22 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/products/%253Cimg%2520class=" for 179.183.34.74 at 2016-03-02 17:53:23 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"%3Cimg%20class="}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=%3Cimg%20class=):
+  app/controllers/products_controller.rb:77:in `set_product'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (117.2ms)
+
+
+Started GET "/products/%253Cimg%2520class=" for 179.183.34.74 at 2016-03-02 17:53:24 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"%3Cimg%20class="}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=%3Cimg%20class=):
+  app/controllers/products_controller.rb:77:in `set_product'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (111.6ms)
+
+
+Started GET "/products/%253Cimg%2520class=" for 179.183.34.74 at 2016-03-02 17:53:29 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"%3Cimg%20class="}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=%3Cimg%20class=):
+  app/controllers/products_controller.rb:77:in `set_product'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (155.9ms)
+
+
+Started GET "/products/3" for 179.183.34.74 at 2016-03-02 17:54:46 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 3]]
+  Rendered shared/_stripe_checkout_button.html.erb (9.3ms)
+  Rendered products/show.html.erb within layouts/application (22.0ms)
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (undefined method `image_path' for #<Product:0x00000003e07560>):
+    1: <script
+    2:   src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    3:   data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+    4:   data-image="<%= @product.image_path %>"
+    5:   data-name="<%= @product.name %>"
+    6:   data-description="<%= @product.description %>"
+    7:   data-amount="<%= @product.price %>">
+  app/views/shared/_stripe_checkout_button.html.erb:4:in `_app_views_shared__stripe_checkout_button_html_erb__895746426392661769_27004460'
+  app/views/products/show.html.erb:41:in `block in _app_views_products_show_html_erb__3209305676852838491_50463920'
+  app/views/products/show.html.erb:40:in `_app_views_products_show_html_erb__3209305676852838491_50463920'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (120.2ms)
+
+
+Started GET "/products/3" for 179.183.34.74 at 2016-03-02 17:55:13 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?  [["product_id", 3]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.8ms)
+  Rendered products/_new_comment.html.erb (2.2ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered products/_comments.html.erb (4.9ms)
+  Rendered products/show.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 216ms (Views: 209.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:55:13 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ffcb2da9e539f67837a12bbff3a73e79a1c77483ffb8d4d94fa606f809537f2e.css?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-ffafc937ef073db406434d2c9a434a85db6802d1354266a4a4722a05280085d5.css?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fade.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.raty.self-eb7045c9858acfa4797981589f870a37b0dc801327e96148473cad672c94b9b8.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/site.self-e8edfebf0c6d3e9767147fc771c65fb1ffa8c694250fedcf794b5b334362d3e0.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/roy-f9c785b21c8f05a36dbc7759f0c4b9ca004eb43247f37645e361ee68c5219721.jpg" for 179.183.34.74 at 2016-03-02 17:55:14 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-off.png" for 179.183.34.74 at 2016-03-02 17:55:15 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-on.png" for 179.183.34.74 at 2016-03-02 17:55:15 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-half.png" for 179.183.34.74 at 2016-03-02 17:55:15 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/products/roy.jpeg" for 179.183.34.74 at 2016-03-02 17:55:39 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as JPEG
+  Parameters: {"id"=>"roy"}
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 60ms (ActiveRecord: 0.3ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=roy):
+  app/controllers/products_controller.rb:77:in `set_product'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (111.6ms)
+
+
+Started GET "/products/roy.jpeg" for 179.183.34.74 at 2016-03-02 17:56:20 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as JPEG
+  Parameters: {"id"=>"roy"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 56ms (ActiveRecord: 0.4ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=roy):
+  app/controllers/products_controller.rb:77:in `set_product'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (117.6ms)
+
+
+Started GET "/products/3" for 179.183.34.74 at 2016-03-02 17:57:43 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 3]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.1ms)
+  Rendered products/_new_comment.html.erb (3.8ms)
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments" LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered products/_comments.html.erb (7.3ms)
+  Rendered products/show.html.erb within layouts/application (162.7ms)
+Completed 200 OK in 362ms (Views: 354.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ffcb2da9e539f67837a12bbff3a73e79a1c77483ffb8d4d94fa606f809537f2e.css?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-ffafc937ef073db406434d2c9a434a85db6802d1354266a4a4722a05280085d5.css?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fade.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.raty.self-eb7045c9858acfa4797981589f870a37b0dc801327e96148473cad672c94b9b8.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/site.self-e8edfebf0c6d3e9767147fc771c65fb1ffa8c694250fedcf794b5b334362d3e0.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 179.183.34.74 at 2016-03-02 17:57:44 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/roy-f9c785b21c8f05a36dbc7759f0c4b9ca004eb43247f37645e361ee68c5219721.jpg" for 179.183.34.74 at 2016-03-02 17:57:45 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-off.png" for 179.183.34.74 at 2016-03-02 17:57:45 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-on.png" for 179.183.34.74 at 2016-03-02 17:57:45 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/star-half.png" for 179.183.34.74 at 2016-03-02 17:57:45 +0000
+Cannot render console from 179.183.34.74! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
