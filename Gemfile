@@ -33,6 +33,9 @@ gem 'cancancan'
 #pagination
 gem 'will_paginate', '~> 3.0.6'
 
+  
+gem 'stripe'
+
 
 
 
@@ -73,7 +76,6 @@ group :development, :test do
   
   gem 'guard-spork'
   
-  gem 'stripe'
 
 end
 
