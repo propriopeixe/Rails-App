@@ -18,7 +18,11 @@ Rails.application.routes.draw do
   
   get 'static_pages/index'
   
+  get 'payments/create'
+  
   post 'static_pages/thank_you'
+  
+  post 'payments/create'
  
 
   # The priority is based upon order of creation: first created -> highest priority.
