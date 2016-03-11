@@ -36,6 +36,8 @@ gem 'will_paginate', '~> 3.0.6'
   
 gem 'stripe'
 
+gem 'angularjs-rails'
+
 gem "brakeman", :require => false
 
 
