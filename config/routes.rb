@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   
   get 'payments/create'
   
+  
   post 'static_pages/thank_you'
   
   post 'payments/create'

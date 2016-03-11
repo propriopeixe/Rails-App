@@ -10,7 +10,7 @@
   <br><br><br>
   
   <div class="col-md-4 col-sm-6 col-xs-12">
-  <%= image_tag(@product.image_url, class: "img-responsive thumbnail") %>
+  <%= image_tag(@product.image_url, class: "img-responsive thumbnail img-zoom", @product.image_url => :data_zoom_image) %>
   </div>
   
   
