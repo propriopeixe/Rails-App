@@ -7,7 +7,9 @@
 
 <table>
   <tbody>
-    <%= render @products %>
+    <% cache @products do %>
+      <%= render @products %>
+    <% end %>
 </table>
 
 <br>
