@@ -31,7 +31,7 @@
           <small ng-show="order.id"><br>{{order.user.email}}</small>
         </td>
         <td>
-          <strong>{{order.total | currency}}</strong>
+          <strong>{{(order.total / 100) - 100 | currency}}</strong>
         </td>
         <td>
           {{order.product.name}}
