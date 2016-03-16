@@ -20,6 +20,8 @@ Rails.application.routes.draw do
   
   get 'payments/create'
   
+  get 'orders/index'
+  
   
   post 'static_pages/thank_you'
   

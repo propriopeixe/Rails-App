@@ -21,7 +21,8 @@ class PaymentsController < ApplicationController
             rescue Stripe::CardError => e
         end
         logger.debug "redirect path"
-        redirect_to product_path(@product)
+        redirect_to orders_path
+        
         
     end
 
